@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(113, 122, 23);
+}
+.fixo{
+    display: flex;
+    position: fixed;
+    z-index: 3;
+    background-color: #1206f5a0;
+    border-bottom: solid rgb(255, 3, 3);
+    width: 100%;
+    color: white;
+}
+.box{
+    position: relative;
+    left: 70%;
+    line-height: 25px;
+    margin: 5px;
+    border: solid 3px black;
+    background-color: rgb(111, 111, 157);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    height: 30px;
+}
+.titulo{
+    position: relative;
+    left: 10%;
+    border: solid 3px black;
+    border-radius: 25px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 30px;
+}
+.img{
+    position: absolute;
+    top: 150px;
+    border: solid 5px rgb(80, 79, 79);
+    border-radius: 50%;
+    left: 150px;
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+
+}
+.img1{
+    border-radius: 50%;
+    max-height: 300px;
+}
+.perfil{
+    position: relative;
+    background-color: black;
+    height: 300px;
+    top: 53px;
+}
+.grid{
+    display: grid;
+    position: relative;
+    grid: 
+    'a b'   
+    'a b'
+    /1fr 2fr;
+    grid-column-gap: 40px;
+    background-color: none;
+    top: 500px;
+}
+.nome{
+    text-align: center;
+    background-color: rgb(108, 107, 107);
+    border: solid;
+    grid-area: a;
+}
+.sobremim{
+    background-color: rgb(195, 195, 196);
+    border: solid;
+    grid-area:b;
+}
